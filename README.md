@@ -21,7 +21,7 @@ Data recorded by Sensing Tasks (STs), processed by Privacy Mechanisms (PMs) and 
 ### Sensing Tasks
 
 ```java
-void onStart (Context, int, ObjectInputStream)
+void onStart (Context, ObjectInputStream)
 ```
 
 Initialize the task state and install listeners for the sensors of the smartphone. If the task has previously saved its state, this can be retrieved via s (if not NULL).
