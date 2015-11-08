@@ -9,7 +9,7 @@ EasyHarvest aims to simplify the deployment and controlled execution of large-sc
 Data recorded by Sensing Tasks (STs), processed by Privacy Mechanisms (PMs) and sent to the EasyHarvestServer (EHS) by the EasyHarvestClients (EHCs) should follow a specific structure shown in the table below to achieve proper communication and function of the framework entities. This way, we patronize the data collected without limiting application capabilities and Sensing Task developer freedom. For instance, the values field from an application that monitors location would typically contain [0] longitude, [1] latitude and optionally [2] altitude and [3] speed.
 
 | Type          | Name          | Description   |
-| ------------- | ------------- | ------------- |
+| :-----------: | :-----------: | ------------- |
 | int           | device        | The device id assigned by the server during the client registration. |
 | int           | task          | The identifier of the sensing task that produced this data. |
 | int           | sensor        | The identifier of the sensor that generated this event. |
